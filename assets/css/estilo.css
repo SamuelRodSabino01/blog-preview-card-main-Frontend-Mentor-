@@ -51,3 +51,10 @@ body{
 .card-text{
     color: hsl(0, 0%, 50%);
 }
+.author{
+    display: flex;
+    align-items: center;
+}
+.img-author img{
+    width: 70%;
+}
