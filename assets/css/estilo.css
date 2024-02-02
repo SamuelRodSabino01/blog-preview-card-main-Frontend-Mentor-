@@ -9,3 +9,45 @@
 body{
     background-color: hsl(47, 88%, 63%);
 }
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 20px;
+    border-color: #000;
+}
+.card img{
+    border-radius: 10px;
+    width: 85%;
+}
+.tag{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 25px;
+    border-radius: 5px;
+}
+.tag span{
+    font-size: 13px;
+}
+.published span{
+    font-size: 13px;
+}
+.card-body a{
+    text-decoration: none;
+    font-size: larger;
+    color: #000;
+}
+.card-body a:hover{
+    color: hsl(47, 88%, 63%);
+}
+.card-text{
+    color: hsl(0, 0%, 50%);
+}
