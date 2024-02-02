@@ -20,6 +20,10 @@ body{
     width: 30%;
     border-radius: 20px;
     border-color: #000;
+    box-shadow: 7px 7px 0px rgba(0, 0, 0, 1);
+}
+.card:hover{
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
 }
 .card img{
     border-radius: 10px;
@@ -57,4 +61,13 @@ body{
 }
 .img-author img{
     width: 70%;
+}
+
+@media only screen and (max-width: 600px){
+    .conteudo{
+        margin-top: 35%;
+    }
+    .card{
+        width: 100%;
+    }
 }
